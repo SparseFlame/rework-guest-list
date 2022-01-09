@@ -48,3 +48,7 @@ function sorting()
     console.log(rc);
     document.getElementById("display_name_without_commas").innerHTML = rc;
 }
+
+function found(){
+    document.getElementById("found_text").innerHTML = "got 1 name";
+}
